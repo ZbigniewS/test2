@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pracujemy Bootrapem</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+    <link href='http://fonts.googleapis.com/css?family=Abril+Fatface&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+     <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!-- hero -->
+    <section class="hero text-center jumbotron">
+        <h1>Zmierzch dnia <br><small>ciągle na początku drogi a wieczór na wyciągnięcie dłoni</small></h1>
+        <button class="btn btn-primary">Zapraszam</button>
+    </section>
+    <!-- gallery-->
+    <section class="container-fluid text-center">
+        <h2>Galeria zmierzchu</h2>
+        <div class="row">
+            <img src="https://static.pexels.com/photos/268533/pexels-photo-268533.jpeg" alt="zmierzch Śniardwy" title="Zmierzch Sniardwy"
+                class="img-responsive img-thumbnail col-lg-3">
+                <img src="https://static.pexels.com/photos/132824/pexels-photo-132824.jpeg" alt="zmierzch Ustrzyki" title="Zmierzch Ustrzyki"
+                    class="img-responsive img-thumbnail col-lg-3">
+                    <img src="https://static.pexels.com/photos/296849/pexels-photo-296849.jpeg" alt="zmierzch Złoty Stok" title="Zmierzch Złoty Stok"
+                        class="img-responsive img-thumbnail col-lg-3">
+                        <img src="https://static.pexels.com/photos/131277/pexels-photo-131277.jpeg" alt="zmierzch Równica
+            " title="Zmierzch Równica" class="img-responsive img-thumbnail col-lg-3">
+    </section>
+    <!-- table -->
+    <section class="text-center">
+        <h2>Ocenione zdjęcia</h2>
+        <table class="table table-striped">
+            <thead>
+                <th>Miejsce</th>
+                <th>Region</th>
+                <th>Ocena</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Śniardwy</td>
+                    <td>Mazury</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Ustrzyki</td>
+                    <td>Bieszczady</td>
+                    <td>4.7</td>
+                </tr>
+                <tr>
+                    <td>Złoty Stok</td>
+                    <td>Kotlina Kłodzka</td>
+                    <td>4.8</td>
+                </tr>
+                <tr>
+                    <td>Równica</td>
+                    <td>Karkonosze</td>
+                    <td>4.6</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <!-- section contact-->
+    <section class="text-center">
+        <h2> Skontaktuj się z nami</h2>
+        <div class="contact">
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputName1">Nick / Imię</label>
+                    <input type="text" class="form-control" id="exampleInputName1" placeholder="Adam Adamski">
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                </div>
+                <div class="textarea">
+                    <textarea class="form-control" rows="5" placeholder="Wpisz treść wiadomości"></textarea>
+                </div>
+                <button type="submit" class="btn btn-default">Wyślij wiadomość</button>
+            </form>
+        </div>
+    </section>
+    <footer class="text-center">
+        <small>&Copyright Foto-travel 2017</small>
+    </footer>
+</body>
+
+</html>

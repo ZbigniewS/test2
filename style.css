@@ -1,0 +1,43 @@
+body {
+    background-color: wheat;
+    font-family: 'Abril Fatface', sans-serif;
+}
+
+img {
+    max-height: 245px;
+    max-width: 380px;
+}
+.hero {
+    background-image: url(https://static.pexels.com/photos/302101/pexels-photo-302101.jpeg)
+}
+.jumbotron {
+    background-size: 100%
+}
+.jumbotron .btn {
+    font-size: 32px;
+}
+
+h1 small{
+    color: white;
+}
+h1, h2 {
+    padding: 20px;
+}
+.thumbnail {
+    border: sandybrown;
+}
+.table {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.contact {
+    max-width: 600px;
+    margin: 0 auto;
+}
+footer {
+    height: 50px;
+    padding-top: 20px;
+}
+th {
+text-align: center;
+}
